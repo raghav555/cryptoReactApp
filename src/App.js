@@ -14,6 +14,9 @@ const App = () => {
                 <Layout>
                     <div className="routes">
                         <Switch>
+                            <Route exact path = "/cryptoReactApp">
+                                <Homepage />
+                            </Route>
                             <Route exact path = "/">
                                 <Homepage />
                             </Route>
